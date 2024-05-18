@@ -1,4 +1,4 @@
-## Event Grid Listener using .NET Aspire
+## EventGrid Webhooks using .NET Aspire
 
 The code in this repository shows publish and subscribe to events using event grid in .NET Aspire. The code is made up of 2 applications, [EventGridDemo.Publisher](/EventGridDemo.Publisher) and [EventGridDemo.Api](/EventGridDemo.Api). The publisher application publishes events to the event grid topic, and the API application listens for events from the event grid topic.
 

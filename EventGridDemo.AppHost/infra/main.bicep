@@ -33,6 +33,17 @@ module resources 'resources.bicep' = {
   }
 }
 
+module bootstrap '../eventgridwebhookbootstrap.bicep' = {
+  name: 'webhookbootstrap'
+  scope: rg
+  params: {
+    location: location
+    containerAppEnvironmentId: resources.outputs.AZURE_CONTAINER_APPS_ENVIRONMENT_ID
+    name: 'api'
+    webhookPath: 'hook'
+  }
+}
+
 module grid 'grid/eventgridwebhook.bicep' = {
   name: 'grid'
   scope: rg

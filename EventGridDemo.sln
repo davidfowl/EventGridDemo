@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventGridDemo.Publisher", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventGridDemo.ServiceDefaults", "EventGridDemo.ServiceDefaults\EventGridDemo.ServiceDefaults.csproj", "{28FEE277-3FEE-44B4-8569-813ECB28DE9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventGridWebHookBootstrap", "EventGridWebHookBootstrap\EventGridWebHookBootstrap.csproj", "{B8E03849-7A89-4EBC-864E-9A485329732A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{28FEE277-3FEE-44B4-8569-813ECB28DE9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28FEE277-3FEE-44B4-8569-813ECB28DE9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28FEE277-3FEE-44B4-8569-813ECB28DE9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8E03849-7A89-4EBC-864E-9A485329732A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E03849-7A89-4EBC-864E-9A485329732A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E03849-7A89-4EBC-864E-9A485329732A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E03849-7A89-4EBC-864E-9A485329732A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

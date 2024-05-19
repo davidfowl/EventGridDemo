@@ -17,6 +17,8 @@ builder.Services.AddHttpLogging(o =>
 
 var app = builder.Build();
 
+app.Logger.LogInformation("Webhook path: {webhookPath}", webhookPath);
+
 app.UseHttpLogging();
 
 app.MapPost(webhookPath, (JsonArray gridEvents) =>

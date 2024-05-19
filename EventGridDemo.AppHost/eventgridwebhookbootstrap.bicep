@@ -8,7 +8,12 @@ resource webhookbootstrapApp 'Microsoft.App/containerApps@2024-03-01' = {
   location: location
   properties: {
     environmentId: containerAppEnvironmentId
-    configuration: {}
+    configuration: {
+      ingress: {
+        external: true
+        targetPort: 8080
+      }
+    }
     template: {
       containers: [
         {
